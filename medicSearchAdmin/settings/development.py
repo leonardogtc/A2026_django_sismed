@@ -6,6 +6,8 @@ DEBUG = True
 
 SECRET_KEY = 'n@k%c*yz+1w7_87!20h+)rjdpn(*n3xx52g1#bi!g6o-1e36*0'
 
+ALLOWED_HOSTS = ['127.0.0.1']
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
